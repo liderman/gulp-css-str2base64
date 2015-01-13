@@ -1,0 +1,34 @@
+{
+  "name": "gulp-css-str2base64",
+  "version": "0.0.1",
+  "description": "Gulp plugin. Adds a function str2base64 in css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liderman/gulp-css-str2base64.git"
+  },
+  "keywords": [
+    "gulp",
+    "base64",
+    "str2base64",
+    "sass",
+    "css",
+    "svg2base64"
+  ],
+  "author": {
+    "name": "Osipov Konstantin",
+    "email": "k.osipov.msk@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liderman/gulp-css-str2base64/issues"
+  },
+  "homepage": "https://github.com/liderman/gulp-css-str2base64",
+  "dependencies": {
+    "through2": "^0.6.1",
+    "gulp-util": "^3.0.0"
+  }
+}
