@@ -1,7 +1,5 @@
 'use strict';
 
-var fs = require('fs');
-var path = require('path');
 var through = require('through2');
 var gutil = require('gulp-util');
 

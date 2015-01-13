@@ -1,6 +1,6 @@
 {
   "name": "gulp-css-str2base64",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp plugin. Adds a function str2base64 in css.",
   "main": "index.js",
   "scripts": {
