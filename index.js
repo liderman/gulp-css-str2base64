@@ -6,7 +6,7 @@ var gutil = require('gulp-util');
 // Consts
 var PLUGIN_NAME = 'gulp-css-str2base64';
 
-var REGEX_FUNCTION = /str2base64\((?:'|\\')([^\']*)(?:'|\\')\)/gi;
+var REGEX_FUNCTION = /str2base64\((?:'|\\'|"|\\")(.+?)(?:'|\\'|"|\\")\)/gi;
 
 // Plugin level function(dealing with files)
 function gulpCssStr2base64(opts) {
